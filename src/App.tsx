@@ -6,14 +6,14 @@ function App() {
 
   return (
     <main className="app-shell">
-      <div className="hero-badge">✨ Cats + Unicorns + Pink Magic ✨</div>
+      <div className="hero-badge">✨ Bazil PDF to Kahoot Game ✨</div>
 
       <section className="hero">
         <div className="hero-copy">
-          <h1>Welcome to the Pink Purr-fect World</h1>
-          <p>Everything here is soft, sparkly, and full of rainbow fluff.</p>
+          <h1>Welcome to the Bazil PDF to Kahoot Game</h1>
+          <p>Transform your PDFs into engaging Kahoot games in seconds!</p>
           <button onClick={() => setCount((count) => count + 1)}>
-            Pet the unicorns: {count}
+            Create a Kahoot: {count}
           </button>
         </div>
 
@@ -24,23 +24,8 @@ function App() {
         </div>
       </section>
 
-      <section className="card-grid">
-        <article className="card">
-          <h2>Pink Kitty</h2>
-          <p>Soft paws, glittery whiskers, and sleepy rainbow naps.</p>
-        </article>
-        <article className="card">
-          <h2>Unicorn Dreams</h2>
-          <p>Gallop through cotton-candy clouds and sparkling stardust.</p>
-        </article>
-        <article className="card">
-          <h2>Magic Button</h2>
-          <p>Tap it to add more love to the page.</p>
-        </article>
-      </section>
-
       <footer className="footer">
-        Made with pink vibes, cats, unicorns, and a whole lot of sparkle.
+        Copyright © 2026 Bazil Inc. All rights reserved. Written and designed by Nikki Lockwood
       </footer>
     </main>
   )
